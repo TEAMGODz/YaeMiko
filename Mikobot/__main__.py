@@ -79,11 +79,11 @@ async def ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            "𝙈𝙊𝙍𝙀 𝙄𝙈𝘼𝙂𝙀 𝙂𝙀𝙉 ➪", callback_data="more_ai_handler"
+                            "Mᴏʀᴇ Iᴍᴀɢᴇ Gᴇɴ ➪", callback_data="more_ai_handler"
                         ),
                     ],
                     [
-                        InlineKeyboardButton("» 𝙃𝙊𝙈𝙀 «", callback_data="Miko_back"),
+                        InlineKeyboardButton("Hᴏᴍᴇ🔙", callback_data="Miko_back"),
                     ],
                 ],
             ),
@@ -116,7 +116,7 @@ async def more_ai_handler_callback(update: Update, context: ContextTypes.DEFAULT
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⇦ 𝘽𝘼𝘾𝙆", callback_data="ai_handler"),
+                        InlineKeyboardButton("⇦ Back", callback_data="ai_handler"),
                     ],
                 ],
             ),
