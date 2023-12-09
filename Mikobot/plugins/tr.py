@@ -316,7 +316,7 @@ async def totranslate(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "Reply to messages or write messages from other languages ​​for translating into the intended language\n\n"
             "Example: `/tr en-ta` to translate from English to Tamil\n"
             "Or use: `/tr ta` for automatic detection and translating it into Tamil.\n"
-            "See [List of Language Codes](https://t.me/Hydra_Updates/80) for a list of language codes.",
+            "See [List of Language Codes](https://t.me/LostCorps/857) for a list of language codes.",
             parse_mode="markdown",
             disable_web_page_preview=True,
         )
