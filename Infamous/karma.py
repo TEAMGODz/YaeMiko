@@ -48,7 +48,7 @@ MUTE_GIFS = [
 
 FIRST_PART_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴀɴʏᴀ ꜰᴏʀɢᴇʀ/n/nᴀ sᴘʏ x ꜰᴀᴍɪʟʏ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
+PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴀɴʏᴀ ꜰᴏʀɢᴇʀ. ᴀ sᴘʏ x ꜰᴀᴍɪʟʏ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
 
 START_BTN = [
     [
@@ -64,7 +64,7 @@ START_BTN = [
         InlineKeyboardButton(text="ᴅᴇᴛᴀɪʟs®️", callback_data="Miko_"),
         InlineKeyboardButton(text="AI", callback_data="ai_handler"),
         InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", callback_data="git_source"),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ💬", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(text="ᴄʀᴇᴀᴛᴏʀ", url=f"tg://user?id={OWNER_ID}"),
